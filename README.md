@@ -1,6 +1,6 @@
 # Genericized OMX Skills
 
-Generic agent skills adapted from a local oh-my-codex skill install.
+Generic agent skills adapted from oh-my-codex skills.
 
 These versions remove the runtime-specific OMX/Ralph/Team/Ultrawork control layer and keep the reusable workflows as ordinary agent skills. Durable artifacts are directed to `docs/` instead of `.omx/`.
 
@@ -18,9 +18,7 @@ These versions remove the runtime-specific OMX/Ralph/Team/Ultrawork control laye
 - `web-clone`
 - `wiki`
 
-OMX runtime-control skills such as setup, doctor, hud, cancel, team, worker, ralph, and ultrawork are intentionally not included as active skills. Local user-authored skills that happened to live in the same old skill root are also intentionally excluded.
-
-Excluded local skills include `codex-feature-pipeline`, `ship`, `hatch-pet`, `durable-agentic-workflow`, `commit`, `prd`, and `writing-plans`.
+OMX runtime-control skills such as setup, doctor, hud, cancel, team, worker, ralph, and ultrawork are intentionally not included as active skills.
 
 ## Install
 
