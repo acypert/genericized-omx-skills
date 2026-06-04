@@ -10,22 +10,17 @@ These versions remove the runtime-specific OMX/Ralph/Team/Ultrawork control laye
 - `ask-claude`
 - `ask-gemini`
 - `code-review`
-- `codex-feature-pipeline`
-- `commit`
 - `deep-interview`
-- `durable-agentic-workflow`
-- `hatch-pet`
 - `note`
 - `plan`
-- `prd`
-- `ship`
 - `skill`
 - `visual-verdict`
 - `web-clone`
 - `wiki`
-- `writing-plans`
 
-OMX runtime-control skills such as setup, doctor, hud, cancel, team, worker, ralph, and ultrawork are intentionally not included as active skills.
+OMX runtime-control skills such as setup, doctor, hud, cancel, team, worker, ralph, and ultrawork are intentionally not included as active skills. Local user-authored skills that happened to live in the same old skill root are also intentionally excluded.
+
+Excluded local skills include `codex-feature-pipeline`, `ship`, `hatch-pet`, `durable-agentic-workflow`, `commit`, `prd`, and `writing-plans`.
 
 ## Install
 
@@ -57,8 +52,7 @@ ${AGENTS_HOME:-$HOME/.agents}/skills-backup/
 ## Notes
 
 - `ask-claude` and `ask-gemini` expect local `claude` and `gemini` CLI binaries.
-- `hatch-pet` still packages Codex pet assets under `${CODEX_HOME:-$HOME/.codex}/pets/`, because that is the Codex app pet loading contract.
-- `ship` delegates to the local `codex-feature-pipeline` skill after installation.
+- This repository includes only the genericized active skills that matched names in the installed `oh-my-codex` package at audit time.
 
 ## Validate
 

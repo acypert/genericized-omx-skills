@@ -1,4 +1,0 @@
-interface:
-  display_name: "Durable Agentic Workflow"
-  short_description: "Design durable long-running agent workflows"
-  default_prompt: "Use $durable-agentic-workflow to design a durable, resumable orchestration for this long-running agent task."
